@@ -17,8 +17,8 @@ public class EmployeeController {
 	
 	@PostMapping("/saveEmployee")
 	public Employee saveEmployee( @RequestBody Employee employee) {
-	Employee emp1=	employeeService.saveEmployee(employee);
-		return emp1;
+	Employee emp2=	employeeService.saveEmployee(employee);
+		return emp2;
 		
 	}
 }
